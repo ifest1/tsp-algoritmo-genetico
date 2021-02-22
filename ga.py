@@ -38,8 +38,8 @@ class Route:
 class GeneticAlgorithm:
   def __init__(self, 
               source,
-              p_mutate=0.3, 
-              p_crossover=0.3, 
+              p_mutate=0.4, 
+              p_crossover=0.4, 
               generation_limit=100,
               initial_pop_size=100):
 
